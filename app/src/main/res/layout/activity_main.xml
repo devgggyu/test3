@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="연결할 전화 번호" />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/phoneNumTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01027589591" />
+
+
+
+
+        <Button
+            android:id="@+id/changeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:text="전화번호 변경" />
+
+        <Button
+            android:id="@+id/dialBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전화연결 DIAL" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
